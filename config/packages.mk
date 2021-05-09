@@ -40,7 +40,7 @@ PRODUCT_PACKAGES += \
     Etar \
     Jelly \
     VanillaMusic \
-    CarbonDelta \
+    Updater \
     SimpleGallery \
     ExactCalculator
 
