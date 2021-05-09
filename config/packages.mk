@@ -39,9 +39,7 @@ PRODUCT_PACKAGES += \
     SearchLauncherQuickStep \
     Etar \
     Jelly \
-    VanillaMusic \
     Updater \
-    SimpleGallery \
     ExactCalculator
 
 # SetupWizard
@@ -60,7 +58,7 @@ PRODUCT_PACKAGES += \
 
 # Custom off-mode charger
 #ifneq ($(WITH_LINEAGE_CHARGER),false)
-PRODUCT_PACKAGES += \
+#PRODUCT_PACKAGES += \
     charger_res_images \
     cm_charger_res_images \
     font_log.png \
