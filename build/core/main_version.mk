@@ -1,7 +1,7 @@
 # Apply it to build.prop
 ADDITIONAL_BUILD_PROPERTIES += \
     ro.modversion=CarbonROM-$(CARBON_VERSION) \
-    ro.carbon.version=$(CARBON_VERSION) \
+    ro.carbon.version=CR-9 \
     ro.carbon.build.version=$(CARBON_REVISION) \
     ro.romstats.url=https://stats.carbonrom.org \
     ro.romstats.name=CarbonROM \
