@@ -69,6 +69,12 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 # Additional packages
 -include vendor/carbon/config/packages.mk
 
+ifeq ($(WITH_GMS),true)
+include vendor/gms/products/gms.mk
+PRODUCT_PROPERTY_OVERRIDES += \
+    carbon.updater.uri=https://downloads.sourceforge.net/project/sweetcarbon/gapps/update.json
+endif
+
 # Versioning
 -include vendor/carbon/config/version.mk
 
